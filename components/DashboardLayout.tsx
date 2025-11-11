@@ -79,6 +79,10 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({
               <Icon name="bell" className="w-6 h-6 text-gray-600" />
               <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
             </button>
+            <button className="relative p-2 rounded-full hover:bg-gray-100">
+              <Icon name="message" className="w-6 h-6 text-gray-600" />
+              <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
+            </button>
             <div className="flex items-center space-x-2">
                 <img src="https://picsum.photos/40/40?random=profile" alt="Profile" className="w-10 h-10 rounded-full" />
                 <span className="hidden sm:block font-medium">User Name</span>

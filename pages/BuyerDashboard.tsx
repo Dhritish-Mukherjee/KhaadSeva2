@@ -69,7 +69,10 @@ const BuyerDashboard: React.FC<BuyerDashboardProps> = ({ navigateTo }) => {
                                 </div>
                                 <div className="flex justify-between items-center mt-4">
                                     <p className="text-xl font-bold text-gray-800">${listing.price}<span className="text-sm font-normal">/ton</span></p>
-                                    <Button variant="primary" className="!py-1 !px-3">Buy</Button>
+                                    <div>
+                                      <Button variant="primary" className="!py-1 !px-1 mx-2">Buy</Button>
+                                      <Button variant="secondary" className="!py-1 !px-1 mx-1">Enquiry</Button>
+                                    </div>
                                 </div>
                             </div>
                         </Card>

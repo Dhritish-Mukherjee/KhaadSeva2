@@ -60,6 +60,10 @@ const FarmerDashboard: React.FC<FarmerDashboardProps> = ({ navigateTo }) => {
                             <label className="block text-sm font-medium text-gray-700">Quantity (in tons)</label>
                             <input type="number" placeholder="e.g., 5" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary" />
                         </div>
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700">Asking Price</label>
+                            <input type="number" placeholder="e.g., $10/ton" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary" />
+                        </div>
                     </div>
                      <div>
                         <label className="block text-sm font-medium text-gray-700">Location</label>
